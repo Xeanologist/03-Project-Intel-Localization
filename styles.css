@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    background: linear-gradient(#3D86FF);
+    justify-content: space-between;
+    text-align: center;
+}
+
+.leftheader,.rightheader{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.personicon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.globeicon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.searchicon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.intelicon{
+    width: 7rem;
+    height: 3rem;
+}
+
+.TimelineIcon{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.mainbody{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    padding: 18rem;
+    gap: 1.2rem;
+}
+
+.TimelineSquare{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(#5EC6FF,#1071CC);
+    justify-content: space-between;
+    padding: 2rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TimelineDate{
+    width: 40%;
+    font-size: xx-large;
+}
+
+.TimelineIcon{
+    width: 25%;
+    height: 25%;
+}
+
+.topsection{
+    background: linear-gradient(#5EC6FF,#1071CC);
+    display: flex;
+    background: linear-gradient(#3D86FF);
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
